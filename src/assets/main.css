@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@custom-variant dark (&:where(.my-app-dark, .my-app-dark *));
+
+@theme {
+    --font-cabin: "Cabin", sans-serif;
+    --color-vesselPrimary: #00899E ;
+    --color-vesselIndigo: #283155 ;
+    --color-vesselGray: #595b63 ;
+    --color-vesselYellow: #D9DE38 ;
+    --color-vesselBlue: #1A2339 ;
+}
+
+html, body {
+    @apply font-cabin
+}
+
